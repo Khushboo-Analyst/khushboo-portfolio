@@ -6,8 +6,6 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Product Analytics Blog - Khushboo Bansal</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -19,11 +17,66 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Styling the container holding PDF and description */
+    .pdf-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px; /* Add consistent spacing */
+    }
+
+    /* Styling for the PDF box */
+    .pdf-box {
+      width: 50px;
+      height: 50px;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+
+    .pdf-box i {
+      font-size: 24px;
+      color: #333;
+    }
+
+    /* Styling for the PDF description */
+    .pdf-description {
+      font-size: 16px;
+    }
+
+    /* Make the blog section scrollable */
+    #blog .container {
+      max-height: 600px; /* Limit the height */
+      overflow-y: auto;  /* Enable vertical scrolling */
+      padding-right: 20px; /* Add padding for scrollbar */
+    }
+
+    /* Adjustments for small screens */
+    @media (max-width: 768px) {
+      .pdf-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px; /* Adjust spacing for smaller screens */
+      }
+
+      .pdf-box {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      /* Limit height for mobile devices */
+      #blog .container {
+        max-height: 400px; /* Adjust height for smaller screens */
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -51,52 +104,44 @@
     <section id="blog" class="blog">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <!-- <h2>Product Analytics Insights</h2>
-          <p>Dive into these essential concepts in Product Analytics.</p> -->
+          <h2>Potential of Dashboards -> Unlock advanced Visuals</h2>
+          <p></p>
         </div>
 
+        <!-- Blog Pallet: PDF Boxes and Descriptions -->
         <div class="row">
-          <!-- Blog Pallet 1: Product Analytics -->
-          <div class="col-lg-6">
-            <div class="blog-entry">
-              <!-- <h3>Product Analytics</h3> -->
-              
-              <!-- Dashboard Image for Product Analytics -->
-              <img src="./assets/img/dashboard/publish1.jpg" class="img-fluid" alt="Product Analytics Dashboard">
-              <!-- <p><strong>Dashboard Description:</strong> This dashboard visualizes user engagement across various product features, highlighting areas of high interaction and potential drop-off points.</p> -->
+          <div class="col-lg-12">
+            <!-- PDF 1 -->
+            <div class="pdf-container">
+              <div class="pdf-box">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <div class="pdf-description">
+                <a href="./assets/img/dashboard/Presentation1.pdf" target="_blank">Credit Card Grievance Redressal Dashboard</a>
+                <p>A Credit Card Grievance Redressal Dashboard provides an overview of customer complaints, categorizing issues related to credit card transactions, billing, and services. It tracks complaint statuses, resolution timelines, and satisfaction levels, enabling teams to monitor and improve the efficiency of the grievance resolution process.</p>
+              </div>
             </div>
-          </div>
 
-          <!-- Blog Pallet 2: Retention Curve -->
-          <div class="col-lg-6">
-            <div class="blog-entry">
-              <!-- <h3>Retention Curve</h3> -->
-              <!-- <p>A retention curve shows how users continue interacting with a product over time. It's crucial in understanding customer loyalty and the product’s long-term value. A flat or upward curve indicates strong retention, while a steep decline signals issues with user experience or value proposition.</p> -->
-              <!-- Dashboard Image for Retention Curve -->
-              <img src="./assets/img/dashboard/publish 2.jpg" class="img-fluid" alt="Retention Curve Dashboard">
-              <!-- <p><strong>Dashboard Description:</strong> This dashboard presents a retention curve showing user activity over time, allowing you to track customer engagement and identify periods of churn.</p> -->
+            <!-- PDF 2 -->
+            <div class="pdf-container">
+              <div class="pdf-box">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <div class="pdf-description">
+                <a href="./assets/img/dashboard/presentation2.pdf" target="_blank">Aero Analytics Dashboard</a>
+                <p>This Aero Analytics dashboard creates user cohorts to identify areas for service improvement and remarketing opportunities.</p>
+              </div>
             </div>
-          </div>
 
-          <!-- Blog Pallet 3: User Persona -->
-          <div class="col-lg-6">
-            <div class="blog-entry">
-              <!-- <h3>User Persona</h3> -->
-              <!-- <p>Creating user personas involves developing semi-fictional representations of your ideal customers based on research and data. These personas help teams understand the needs, behaviors, and goals of their target audience, leading to more personalized and effective product features and marketing strategies.</p> -->
-              <!-- Dashboard Image for User Persona -->
-              <!-- <img src="assets/img/dashboard-user-persona.jpg" class="img-fluid" alt="User Persona Dashboard"> -->
-              <!-- <p><strong>Dashboard Description:</strong> This dashboard showcases detailed user personas, including demographic information, user goals, and behavior patterns, assisting in creating targeted product strategies.</p> -->
-            </div>
-          </div>
-
-          <!-- Blog Pallet 4: A/B Testing -->
-          <div class="col-lg-6">
-            <div class="blog-entry">
-              <!-- <h3>A/B Testing</h3> -->
-              <!-- <p>A/B testing, also known as split testing, compares two versions of a product feature or marketing element to determine which performs better. By presenting different versions to users, businesses can identify the best option that drives engagement, conversion, and other desired outcomes.</p> -->
-              <!-- Dashboard Image for A/B Testing -->
-              <!-- <img src="assets/img/dashboard-ab-testing.jpg" class="img-fluid" alt="A/B Testing Dashboard"> -->
-              <!-- <p><strong>Dashboard Description:</strong> This dashboard compares two versions of a product feature, presenting the A/B testing results to measure which version generates higher engagement and conversions.</p> -->
+            <!-- PDF 3 -->
+            <div class="pdf-container">
+              <div class="pdf-box">
+                <i class="bi bi-file-earmark-pdf"></i>
+              </div>
+              <div class="pdf-description">
+                <a href="./assets/img/dashboard/presentation3.pdf" target="_blank">Ed Tech Dashboard</a>
+                <p>This Edtech dashboard highlights campaigns and ads run across different geographies, showcasing demos conducted and deals successfully closed.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -105,7 +150,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <!-- <footer id="footer">
+  <footer id="footer">
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Khushboo Bansal</span></strong>. All Rights Reserved
@@ -114,14 +159,13 @@
         Designed by Khushboo Bansal
       </div>
     </div>
-  </footer>End Footer -->
+  </footer><!-- End Footer -->
 
-  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  Vendor JS Files -->
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
+
