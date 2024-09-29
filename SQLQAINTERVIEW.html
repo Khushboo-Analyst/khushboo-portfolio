@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Product Analytics Blog - Khushboo Bansal</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Styling the container holding PDF and description */
+    .pdf-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    /* Styling for the PDF box */
+    .pdf-box {
+      width: 50px;
+      height: 50px;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+
+    .pdf-box i {
+      font-size: 24px;
+      color: #333;
+    }
+
+    /* Styling for the PDF description */
+    .pdf-description {
+      font-size: 16px;
+    }
+
+    /* Make the blog section scrollable */
+    #blog .container {
+      max-height: 600px;
+      overflow-y: auto;
+      padding-right: 20px;
+    }
+
+    /* Box for headings */
+    .content-box {
+      background-color: #e9ecef;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* Adjustments for small screens */
+    @media (max-width: 768px) {
+      .pdf-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+
+      .pdf-box {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      #blog .container {
+        max-height: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Khushboo Bansal</a></h1>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Main Section ======= -->
+  <main id="main">
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Potential of SQL for BA</h2>
+          <p>Explore how SQL plays a critical role in business analytics through various use cases and projects.</p>
+        </div>
+
+        <!-- Blog Pallet: Content Boxes and Descriptions -->
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <!-- Content Box 1 -->
+            <div class="content-box" id="sql-kpi">
+              <h4><a href="#sql-kpi">Difference between rank,dense_rank & Row number</a></h4>
+              <p></p>
+            </div>
+
+            <!-- Content Box 2 -->
+            <div class="content-box" id="sql-joins">
+              <h4><a href="https://medium.com/@khushboo639147/problem-statement-dfc4cc692c52">Tree node->Parent,Child & Inner Node</a></h4>
+              <p></p>
+            </div>
+
+            <!-- Content Box 3 -->
+            <div class="content-box" id="sql-window-functions">
+              <h4><a href="#sql-window-functions">Consective Number Query</a></h4>
+              <p></p>
+            </div>
+
+            <!-- Content Box 4 -->
+            <div class="content-box" id="sql-optimization">
+              <h4><a href="https://medium.com/@khushboo639147/problem-statement-15d56829c982">3rd highest salary</a></h4>
+              <p></p>
+            </div>
+
+             <!-- Content Box 5 -->
+             <div class="content-box" id="sql-optimization">
+                <h4><a href="#sql-optimization">3 days running avg</a></h4>
+                <p></p>
+              </div>
+              <!-- Content Box 6 -->
+             <div class="content-box" id="sql-optimization">
+                <h4><a href="#sql-optimization">consecutive payment failure instances</a></h4>
+                <p></p>
+              </div>
+               <!-- Content Box 7 -->
+             <div class="content-box" id="sql-optimization">
+                <h4><a href="https://medium.com/@khushboo639147/problem-statement-a9f74e55c206">Aging  report overall amount,last 30 days,last 90 days & others</a></h4>
+                <p></p>
+              </div>
+              <!-- Content Box 8 -->
+             <div class="content-box" id="sql-optimization">
+                <h4><a href="https://medium.com/@khushboo639147/problem-statement-f54a6aa09720">Repeat the number as per there mathematical value </a></h4>
+                <p></p>
+              </div>
+              
+              <!-- Content Box 9 -->
+             <div class="content-box" id="sql-optimization">
+              <h4><a href="https://medium.com/@khushboo639147/problem-statement-299d62b0e5e3">Team Performance summary-win,lose and total matches  </a></h4>
+              <p></p>
+            </div>
+            <!-- Content Box 10 -->
+            <div class="content-box" id="sql-optimization">
+              <h4><a href="https://medium.com/@khushboo639147/recursive-cte-538cf40890bf">Series Genaration through recursive CTE  </a></h4>
+              <p></p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Khushboo Bansal</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by Khushboo Bansal
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
